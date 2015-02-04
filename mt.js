@@ -17,3 +17,23 @@
    }
  }
 
+_PLATFORM.isPc=function(){
+  if(this.DEVICETYPE==='pc'){
+    return true;
+  }
+  return false;
+}
+
+_PLATFORM.isPad=function(){
+  if(this.DEVICETYPE==='pad'){
+    return true;
+  }
+  return false;
+}
+
+_PLATFORM.isMobile=function(){
+  if(this.DEVICETYPE==='mobile'){
+    return true;
+  }
+  return false;
+}
