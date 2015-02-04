@@ -8,7 +8,7 @@
       PCMARKER: 'pc', //设置PC端的标记字符
       PADMARKER: 'pad', //设置PAD端的标记字符
       MOBILEMARKER: 'mobile',//设置MOBILE端的标记字符
-      isPc: boolean, //判断是否PC端
-      isPad: boolean, //判断是否PAD端
-      isMobile: boolean //判断是否MOBILE端
+      isPc: fn, //return boolean判断是否PC端
+      isPad: fn, //return boolean判断是否PAD端
+      isMobile: fn //return boolean判断是否MOBILE端
     };
