@@ -2,7 +2,7 @@
 根据userAgent判断浏览器端设备类型
 
 #####属性介绍：
-
+```javascript
     _PLATFORM = {
       USERAGENT: navigator.userAgent.toLowerCase(), //获取userAgent并转为小写
       PCMARKER: 'pc', //设置PC端的标记字符
