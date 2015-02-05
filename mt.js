@@ -1,6 +1,6 @@
 /*
 * 浏览器端设备判断
-* android/webos/ios/wp/blackberry/tizen/bada/kindle fire(HDX7/HDX8.9)
+* android/webos/ios/wp/aliyunos/symbian/blackberry/tizen/bada/kindle fire(HDX7/HDX8.9)
 * 平板仅区分iPAD,其余平台归类为Mobile
 */
 
@@ -13,7 +13,7 @@ var _PLATFORM = {
 
 _PLATFORM.DEVICETYPE=_PLATFORM.PCMARKER;
 
-if (/mobile|android|webos|ipad|iphone|ipod|blackberry|bb10|windows phone|samsung|kfthwi|kfapwi/i.test(_PLATFORM.USERAGENT)) {
+if (/mobile|android|webos|ipad|iphone|ipod|blackberry|bb10|windows phone|samsung|symbian|aliyunos|kfthwi|kfapwi/i.test(_PLATFORM.USERAGENT)) {
  if (/ipad/i.test(_PLATFORM.USERAGENT)) {
    _PLATFORM.DEVICETYPE = _PLATFORM.PADMARKER;
  }else {
