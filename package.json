@@ -1,0 +1,19 @@
+{
+  "name": "mt",
+  "version": "1.0.0",
+  "description": "判断浏览器端设备类型",
+  "main": "mt.js",
+  "author": "pace zhong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacez/mt"
+  },
+  "keywords": [
+    "mobile"
+  ],
+  "bugs": {
+    "url": "https://github.com/pacez/mt/issues"
+  },
+  "homepage": "https://github.com/pacez/mt"
+}
