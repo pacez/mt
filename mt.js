@@ -13,7 +13,7 @@ var _PLATFORM = {
 
 _PLATFORM.DEVICETYPE=_PLATFORM.PCMARKER;
 
-if (/android|webos|ipad|iphone|ipod|blackberry|bb10|windows phone|samsung|kfthwi|kfapwi/i.test(_PLATFORM.USERAGENT)) {
+if (/mobile|android|webos|ipad|iphone|ipod|blackberry|bb10|windows phone|samsung|kfthwi|kfapwi/i.test(_PLATFORM.USERAGENT)) {
  if (/ipad/i.test(_PLATFORM.USERAGENT)) {
    _PLATFORM.DEVICETYPE = _PLATFORM.PADMARKER;
  }else {
